@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8434A3FA1561FB27001E7238 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8434A3F91561FB27001E7238 /* UIKit.framework */; };
+		8434A3FC1561FB27001E7238 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8434A3FB1561FB27001E7238 /* Foundation.framework */; };
+		8434A3FE1561FB27001E7238 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8434A3FD1561FB27001E7238 /* CoreGraphics.framework */; };
+		8434A40A1561FB27001E7238 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8434A4091561FB27001E7238 /* AppDelegate.m */; };
+		8434A40D1561FB27001E7238 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8434A40B1561FB27001E7238 /* MainStoryboard.storyboard */; };
+		8434A4101561FB27001E7238 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8434A40F1561FB27001E7238 /* ViewController.m */; };
+		8434A4191561FD9B001E7238 /* PlaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8434A4181561FD9B001E7238 /* PlaceTableViewController.m */; };
+		847CC0211583AA6C00B6571B /* ZoomableUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847CC01F1583AA6C00B6571B /* ZoomableUIViewController.m */; };
+		847CC0221583AA6C00B6571B /* ZoomableUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847CC0201583AA6C00B6571B /* ZoomableUIViewController.xib */; };
+		84C8B08B1569E01E00C6DA67 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C8B08A1569E01E00C6DA67 /* FlickrFetcher.m */; };
+		84C989AD158EC63D00C48885 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C989AC158EC63D00C48885 /* main.m */; };
+		84C989B4158ED46600C48885 /* PhotoTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C989B3158ED46600C48885 /* PhotoTableView.xib */; };
+		84C989B815902A7200C48885 /* ThumbnailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C989B715902A7200C48885 /* ThumbnailCell.xib */; };
+		84C989BB15902A9700C48885 /* ThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C989BA15902A9700C48885 /* ThumbnailCell.m */; };
+		84C989BD15916F2200C48885 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84C989BC15916F2200C48885 /* loading.gif */; };
+		84C989BF1591700900C48885 /* loading_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84C989BE1591700900C48885 /* loading_1.gif */; };
+		84DC4F77158061C300CA29A5 /* PhotoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC4F76158061C300CA29A5 /* PhotoTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8434A3F51561FB27001E7238 /* table view example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "table view example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8434A3F91561FB27001E7238 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8434A3FB1561FB27001E7238 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8434A3FD1561FB27001E7238 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8434A4081561FB27001E7238 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8434A4091561FB27001E7238 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8434A40C1561FB27001E7238 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8434A40E1561FB27001E7238 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8434A40F1561FB27001E7238 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8434A4171561FD9B001E7238 /* PlaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceTableViewController.h; sourceTree = "<group>"; };
+		8434A4181561FD9B001E7238 /* PlaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceTableViewController.m; sourceTree = "<group>"; };
+		847CC01E1583AA6C00B6571B /* ZoomableUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomableUIViewController.h; sourceTree = "<group>"; };
+		847CC01F1583AA6C00B6571B /* ZoomableUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomableUIViewController.m; sourceTree = "<group>"; };
+		847CC0201583AA6C00B6571B /* ZoomableUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZoomableUIViewController.xib; sourceTree = "<group>"; };
+		84C8B0881569E01E00C6DA67 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		84C8B0891569E01E00C6DA67 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		84C8B08A1569E01E00C6DA67 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		84C989AC158EC63D00C48885 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "table view example/main.m"; sourceTree = "<group>"; };
+		84C989B3158ED46600C48885 /* PhotoTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoTableView.xib; sourceTree = "<group>"; };
+		84C989B715902A7200C48885 /* ThumbnailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ThumbnailCell.xib; path = ../ThumbnailCell.xib; sourceTree = "<group>"; };
+		84C989B915902A9700C48885 /* ThumbnailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailCell.h; sourceTree = "<group>"; };
+		84C989BA15902A9700C48885 /* ThumbnailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailCell.m; sourceTree = "<group>"; };
+		84C989BC15916F2200C48885 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = loading.gif; path = ../loading.gif; sourceTree = "<group>"; };
+		84C989BE1591700900C48885 /* loading_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading_1.gif; sourceTree = "<group>"; };
+		84DC4F75158061C300CA29A5 /* PhotoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoTableViewController.h; sourceTree = "<group>"; };
+		84DC4F76158061C300CA29A5 /* PhotoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8434A3F21561FB27001E7238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8434A3FA1561FB27001E7238 /* UIKit.framework in Frameworks */,
+				8434A3FC1561FB27001E7238 /* Foundation.framework in Frameworks */,
+				8434A3FE1561FB27001E7238 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8434A3EA1561FB27001E7238 = {
+			isa = PBXGroup;
+			children = (
+				84C989AC158EC63D00C48885 /* main.m */,
+				8434A3FF1561FB27001E7238 /* table view example */,
+				8434A3F81561FB27001E7238 /* Frameworks */,
+				8434A3F61561FB27001E7238 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8434A3F61561FB27001E7238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8434A3F51561FB27001E7238 /* table view example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8434A3F81561FB27001E7238 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8434A3F91561FB27001E7238 /* UIKit.framework */,
+				8434A3FB1561FB27001E7238 /* Foundation.framework */,
+				8434A3FD1561FB27001E7238 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8434A3FF1561FB27001E7238 /* table view example */ = {
+			isa = PBXGroup;
+			children = (
+				84C989B915902A9700C48885 /* ThumbnailCell.h */,
+				84C989BA15902A9700C48885 /* ThumbnailCell.m */,
+				84C989B715902A7200C48885 /* ThumbnailCell.xib */,
+				84C8B0861569DFFC00C6DA67 /* flickr */,
+				8434A4171561FD9B001E7238 /* PlaceTableViewController.h */,
+				8434A4181561FD9B001E7238 /* PlaceTableViewController.m */,
+				8434A4081561FB27001E7238 /* AppDelegate.h */,
+				8434A4091561FB27001E7238 /* AppDelegate.m */,
+				8434A40B1561FB27001E7238 /* MainStoryboard.storyboard */,
+				8434A40E1561FB27001E7238 /* ViewController.h */,
+				8434A40F1561FB27001E7238 /* ViewController.m */,
+				8434A4001561FB27001E7238 /* Supporting Files */,
+				84DC4F75158061C300CA29A5 /* PhotoTableViewController.h */,
+				84DC4F76158061C300CA29A5 /* PhotoTableViewController.m */,
+				847CC01E1583AA6C00B6571B /* ZoomableUIViewController.h */,
+				847CC01F1583AA6C00B6571B /* ZoomableUIViewController.m */,
+				847CC0201583AA6C00B6571B /* ZoomableUIViewController.xib */,
+			);
+			path = "table view example";
+			sourceTree = "<group>";
+		};
+		8434A4001561FB27001E7238 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C989BE1591700900C48885 /* loading_1.gif */,
+				84C989BC15916F2200C48885 /* loading.gif */,
+				84C989B3158ED46600C48885 /* PhotoTableView.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C8B0861569DFFC00C6DA67 /* flickr */ = {
+			isa = PBXGroup;
+			children = (
+				84C8B0881569E01E00C6DA67 /* FlickrAPIKey.h */,
+				84C8B0891569E01E00C6DA67 /* FlickrFetcher.h */,
+				84C8B08A1569E01E00C6DA67 /* FlickrFetcher.m */,
+			);
+			name = flickr;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8434A3F41561FB27001E7238 /* table view example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8434A4131561FB27001E7238 /* Build configuration list for PBXNativeTarget "table view example" */;
+			buildPhases = (
+				8434A3F11561FB27001E7238 /* Sources */,
+				8434A3F21561FB27001E7238 /* Frameworks */,
+				8434A3F31561FB27001E7238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "table view example";
+			productName = "table view example";
+			productReference = 8434A3F51561FB27001E7238 /* table view example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8434A3EC1561FB27001E7238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 8434A3EF1561FB27001E7238 /* Build configuration list for PBXProject "table view example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8434A3EA1561FB27001E7238;
+			productRefGroup = 8434A3F61561FB27001E7238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8434A3F41561FB27001E7238 /* table view example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8434A3F31561FB27001E7238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8434A40D1561FB27001E7238 /* MainStoryboard.storyboard in Resources */,
+				847CC0221583AA6C00B6571B /* ZoomableUIViewController.xib in Resources */,
+				84C989B4158ED46600C48885 /* PhotoTableView.xib in Resources */,
+				84C989B815902A7200C48885 /* ThumbnailCell.xib in Resources */,
+				84C989BD15916F2200C48885 /* loading.gif in Resources */,
+				84C989BF1591700900C48885 /* loading_1.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8434A3F11561FB27001E7238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8434A40A1561FB27001E7238 /* AppDelegate.m in Sources */,
+				8434A4101561FB27001E7238 /* ViewController.m in Sources */,
+				8434A4191561FD9B001E7238 /* PlaceTableViewController.m in Sources */,
+				84C8B08B1569E01E00C6DA67 /* FlickrFetcher.m in Sources */,
+				84DC4F77158061C300CA29A5 /* PhotoTableViewController.m in Sources */,
+				847CC0211583AA6C00B6571B /* ZoomableUIViewController.m in Sources */,
+				84C989AD158EC63D00C48885 /* main.m in Sources */,
+				84C989BB15902A9700C48885 /* ThumbnailCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8434A40B1561FB27001E7238 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8434A40C1561FB27001E7238 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8434A4111561FB27001E7238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8434A4121561FB27001E7238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8434A4141561FB27001E7238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "table view example/table view example-Prefix.pch";
+				INFOPLIST_FILE = "table view example/table view example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8434A4151561FB27001E7238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "table view example/table view example-Prefix.pch";
+				INFOPLIST_FILE = "table view example/table view example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8434A3EF1561FB27001E7238 /* Build configuration list for PBXProject "table view example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8434A4111561FB27001E7238 /* Debug */,
+				8434A4121561FB27001E7238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8434A4131561FB27001E7238 /* Build configuration list for PBXNativeTarget "table view example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8434A4141561FB27001E7238 /* Debug */,
+				8434A4151561FB27001E7238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8434A3EC1561FB27001E7238 /* Project object */;
+}
